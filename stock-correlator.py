@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-os.system("cls")
+
 # download data
 sp500_df = yf.download(tickers = "^SPX",  # list of tickers. select first ticker for comparison ex ^SPX
             period = "ytd",        # time period
